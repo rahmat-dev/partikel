@@ -2,6 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('dashboard', function () {
-  return 'Admin Dashboard';
-});
+Route::view('dashboard', 'admin.dashboard');
